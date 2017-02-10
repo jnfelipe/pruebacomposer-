@@ -1,0 +1,19 @@
+{
+    "name": "jnfelipe/pruebacomposer",
+    "description": "Prueba Composer",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Felipe",
+            "email": "sandboxfelipe@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {},
+	"autoload": {
+        "psr-0": {
+            "HelloWorld": "src/" 
+        }
+    }
+}
